@@ -19,15 +19,15 @@ This is a repo with **Datastructure and Algorithmns** problem solved in
 6. **Run the test.** - `npm run test` This will run the test cases configured in
    the project.
 
-   ##Dependencies
+## Dependencies
 
-   | Dependency             | Use                                                    |
-   | ---------------------- | ------------------------------------------------------ |
-   | eslint                 | lints javascript                                       |
-   | eslint-config-prettier | esling configuration for prettier                      |
-   | husky                  | git precommit hook                                     |
-   | jest                   | test runner to run unit tests                          |
-   | prettier               | code formatter                                         |
-   | babel-core             | Compiler to transpile new javascript to old javascript |
-   | babel-jest             | babel helper for jest runner                           |
-   | @babel/preset-env      | babel helper to preset env                             |
+| Dependency             | Use                                                    |
+| ---------------------- | ------------------------------------------------------ |
+| eslint                 | lints javascript                                       |
+| eslint-config-prettier | esling configuration for prettier                      |
+| husky                  | git precommit hook                                     |
+| jest                   | test runner to run unit tests                          |
+| prettier               | code formatter                                         |
+| babel-core             | Compiler to transpile new javascript to old javascript |
+| babel-jest             | babel helper for jest runner                           |
+| @babel/preset-env      | babel helper to preset env                             |
