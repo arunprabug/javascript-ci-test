@@ -1,0 +1,35 @@
+{
+  "name": "datastructure-algorithms-javascript",
+  "version": "1.0.0",
+  "description": "datastructure and algorithm implementation in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "lint": "eslint src",
+    "format": "npm run prettier -- --write ",
+    "prettier": "prettier \"**/*.+(js|ts|md)\"",
+    "validate": "npm run lint && npm run prettier -- --list-different",
+    "precommit": "npm run validate"
+  },
+  "keywords": [
+    "datastructure",
+    "algorithms",
+    "javascript"
+  ],
+  "author": "Arunprabu Ganesan <arunprabu.ganesan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.6.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0"
+  }
+}
