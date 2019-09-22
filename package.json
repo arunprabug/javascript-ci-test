@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test-coverage": "jest --coverage",
+    "codecov": "jest && codecov",
     "lint": "eslint src",
     "format": "npm run prettier -- --write ",
     "prettier": "prettier \"**/*.+(js|ts|md)\"",
     "validate": "npm run lint && npm run prettier -- --list-different",
     "precommit": "npm run validate"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "keywords": [
     "datastructure",

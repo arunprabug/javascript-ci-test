@@ -1,4 +1,4 @@
-# Datastructe and Algorithmns in Javascript
+# Datastructe and Algorithmns in Javascript [![Build Status](https://travis-ci.org/arunprabug/javascript-ci-test.svg?branch=master)](https://travis-ci.org/arunprabug/javascript-ci-test)
 
 This is a repo with **Datastructure and Algorithmns** problem solved in
 **Javascript**.
